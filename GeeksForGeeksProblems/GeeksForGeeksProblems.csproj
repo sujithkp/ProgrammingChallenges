@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunnyString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseALinkedList.cs" />
+    <Compile Include="StringReducer.cs" />
     <Compile Include="SubArraySum.cs" />
   </ItemGroup>
   <ItemGroup>
