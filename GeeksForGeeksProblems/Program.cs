@@ -10,7 +10,7 @@ namespace GeeksForGeeksProblems
     {
         static void Main(string[] args)
         {
-            FunnyString.Run();
+            CamelCase.Run();
         }
     }
 }

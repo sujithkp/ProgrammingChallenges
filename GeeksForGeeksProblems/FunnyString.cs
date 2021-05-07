@@ -18,7 +18,7 @@ namespace GeeksForGeeksProblems
             var funny = true;
 
             for (int i = 0; i < length - 1; i++)
-                funny &= (Math.Abs(a1[i + 1] - a1[i])  == Math.Abs(a2[i] - a2[i + 1]));
+                funny &= (Math.Abs(a1[i + 1] - a1[i]) == Math.Abs(a2[i] - a2[i + 1]));
 
             return funny ? "Funny" : "Not Funny";
         }
