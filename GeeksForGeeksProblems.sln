@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeeksForGeeksProblems", "GeeksForGeeksProblems\GeeksForGeeksProblems.csproj", "{9AFAD5FE-752C-4A46-A54A-B507C6704C81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenges.Tests", "ProgrammingChallenges.Tests\ProgrammingChallenges.Tests.csproj", "{4DDC60C1-BFCC-4C12-A232-839638289666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9AFAD5FE-752C-4A46-A54A-B507C6704C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AFAD5FE-752C-4A46-A54A-B507C6704C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AFAD5FE-752C-4A46-A54A-B507C6704C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDC60C1-BFCC-4C12-A232-839638289666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDC60C1-BFCC-4C12-A232-839638289666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDC60C1-BFCC-4C12-A232-839638289666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDC60C1-BFCC-4C12-A232-839638289666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

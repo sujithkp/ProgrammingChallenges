@@ -8,3 +8,5 @@
 /.vs/GeeksForGeeksProblems/v16
 /.vs/ProgrammingChallenges/v16
 /.vs
+/ProgrammingChallenges.Tests/bin/Debug/net5.0
+/ProgrammingChallenges.Tests/obj
