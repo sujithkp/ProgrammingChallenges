@@ -1,25 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GeeksForGeeksProblems.HackerRank
 {
-    public class BiggerIsGreater
+    public class BiggerIsGreaterSoution
     {
-        public static string biggerIsGreater(string w)
+        public static string BiggerIsGreater(string str)
         {
-            var arr = w.ToArray();
+            string change = null;
 
-            var found = false;
-            var foundat = -1;
+            var arr = str.ToArray();
 
-            var newStr = string.Empty;
+            var largestChangeisAt = -1;
 
-            for (int i = arr.Length - 1; i > 0; i-- )
+            var changed = true;
+
+            for (int i = str.Length - 1; i > 0; i--)
             {
-                var currChar = arr[i];
+                if (i < largestChangeisAt)
+                    break;
+
+                if (changed)
+                    arr = str.ToArray();
+
+                changed = false;
 
                 for (int j = i - 1; j >= 0; j--)
                 {
@@ -29,30 +33,32 @@ namespace GeeksForGeeksProblems.HackerRank
                         arr[i] = arr[j];
                         arr[j] = temp;
 
-                        found = true;
+                        changed = true;
 
-                        foundat = j + 1;
+                        if (j > largestChangeisAt)
+                        {
+                            change = new string(arr);
+                            largestChangeisAt = j;
+                        }
 
                         break;
                     }
                 }
-
-                if (found) break;
             }
 
-            if (!found) return "no answer";
+            if (change == null) return "no answer";
 
-            var finalArray = new List<char>();
+            var maxChange = largestChangeisAt;
 
-            finalArray.AddRange(arr.Take(foundat ));
+            var lastPart = change.Substring(largestChangeisAt + 1, change.Length - largestChangeisAt - 1);
 
-            var newArray = arr.Skip(foundat).Take(arr.Length - foundat).ToArray();
+            var lastPartArr = lastPart.ToArray();
 
-            Array.Sort(newArray);
+            Array.Sort(lastPartArr);
 
-            finalArray.AddRange(newArray);
+            var firstPart = change.Substring(0, largestChangeisAt + 1);
 
-            return string.Join(string.Empty, finalArray);
-        } 
+            return firstPart + new string(lastPartArr);
+        }
     }
 }

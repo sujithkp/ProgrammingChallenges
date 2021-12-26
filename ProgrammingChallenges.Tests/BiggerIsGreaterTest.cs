@@ -14,7 +14,7 @@ namespace ProgrammingChallenges.Tests
         [InlineData()]
         public void Test1()
         {
-            var result = BiggerIsGreater.biggerIsGreater("hefg");
+            var result = BiggerIsGreaterSoution.BiggerIsGreater("hefg");
 
             Assert.Equal("hegf", result);
         }
@@ -125,7 +125,7 @@ namespace ProgrammingChallenges.Tests
         [InlineData("fjtfrmlqvsekq", "fjtfrmlqvseqk")]
         public void Test2(string input, string expectation)
         {
-            var result = BiggerIsGreater.biggerIsGreater(input);
+            var result = BiggerIsGreaterSoution.BiggerIsGreater(input);
 
             Assert.Equal(expectation, result);
         }
@@ -134,19 +134,19 @@ namespace ProgrammingChallenges.Tests
 
 
         [Theory]
-        [InlineData("zzzayybbaa", "zzzbaaabyy")]
+        [InlineData("dcba", "no answer")]
         public void Test3(string input, string expected)
         {
-            var result = BiggerIsGreater.biggerIsGreater(input);
+            var result = BiggerIsGreaterSoution.BiggerIsGreater(input);
 
             Assert.Equal(expected, result);
         }
 
         [Theory]
-        [InlineData("arciyxaxtvmfgquwb", "axqwbu")]
+        [InlineData("arciyxaxtvmfgquwb", "arciyxaxtvmfgqwbu")]
         public void Test4(string input, string expected)
         {
-            var result = BiggerIsGreater.biggerIsGreater(input);
+            var result = BiggerIsGreaterSoution.BiggerIsGreater(input);
 
             Assert.Equal(expected, result);
         }
