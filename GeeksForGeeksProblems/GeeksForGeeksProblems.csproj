@@ -47,6 +47,7 @@
     <Compile Include="FunnyString.cs" />
     <Compile Include="HackerRank\BiggerIsGreater.cs" />
     <Compile Include="HackerRank\CompareTriplets.cs" />
+    <Compile Include="HackerRank\GradingStudent.cs" />
     <Compile Include="HackerRank\MinMaxSUm.cs" />
     <Compile Include="HackerRank\OccurenceOfLargestNumber.cs" />
     <Compile Include="Program.cs" />
