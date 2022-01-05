@@ -45,11 +45,16 @@
   <ItemGroup>
     <Compile Include="CamelCase.cs" />
     <Compile Include="FunnyString.cs" />
+    <Compile Include="HackerRank\AppleandOrange.cs" />
     <Compile Include="HackerRank\BiggerIsGreater.cs" />
+    <Compile Include="HackerRank\BreakingTheRecords.cs" />
     <Compile Include="HackerRank\CompareTriplets.cs" />
+    <Compile Include="HackerRank\DivisibleSumPairs.cs" />
     <Compile Include="HackerRank\GradingStudent.cs" />
     <Compile Include="HackerRank\MinMaxSUm.cs" />
+    <Compile Include="HackerRank\NumberLineJumps.cs.cs" />
     <Compile Include="HackerRank\OccurenceOfLargestNumber.cs" />
+    <Compile Include="HackerRank\SubarrayDivision.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseALinkedList.cs" />
