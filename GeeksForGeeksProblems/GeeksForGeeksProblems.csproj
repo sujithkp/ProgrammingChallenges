@@ -53,6 +53,7 @@
     <Compile Include="HackerRank\BreakingTheRecords.cs" />
     <Compile Include="HackerRank\CompareTriplets.cs" />
     <Compile Include="HackerRank\DivisibleSumPairs.cs" />
+    <Compile Include="HackerRank\Encryption.cs" />
     <Compile Include="HackerRank\GradingStudent.cs" />
     <Compile Include="HackerRank\MigratoryBirds.cs" />
     <Compile Include="HackerRank\MinMaxSUm.cs" />
