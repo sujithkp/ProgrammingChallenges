@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CamelCase.cs" />
+    <Compile Include="CSharp\EmployeesManagement.cs" />
+    <Compile Include="CSharp\NotesStore.cs" />
     <Compile Include="FunnyString.cs" />
     <Compile Include="HackerRank\AppleandOrange.cs" />
     <Compile Include="HackerRank\BetweenTwoSets.cs" />
@@ -52,6 +54,7 @@
     <Compile Include="HackerRank\CompareTriplets.cs" />
     <Compile Include="HackerRank\DivisibleSumPairs.cs" />
     <Compile Include="HackerRank\GradingStudent.cs" />
+    <Compile Include="HackerRank\MigratoryBirds.cs" />
     <Compile Include="HackerRank\MinMaxSUm.cs" />
     <Compile Include="HackerRank\NumberLineJumps.cs.cs" />
     <Compile Include="HackerRank\OccurenceOfLargestNumber.cs" />
@@ -62,6 +65,7 @@
     <Compile Include="StringBuilding.cs" />
     <Compile Include="StringReducer.cs" />
     <Compile Include="SubArraySum.cs" />
+    <Compile Include="HackerRank\TimeConversion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

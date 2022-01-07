@@ -17,7 +17,7 @@ namespace ProgrammingChallenges.Tests
         {
             var result = DivisibleSumPairs.divisibleSumPairs(6, 3, new List<int> { 1, 3, 2, 6, 1 , 2});
 
-            Assert.Equal(2, result);
+            Assert.Equal(5, result);
         }
     }
 }
