@@ -46,6 +46,7 @@
     <Compile Include="CamelCase.cs" />
     <Compile Include="FunnyString.cs" />
     <Compile Include="HackerRank\AppleandOrange.cs" />
+    <Compile Include="HackerRank\BetweenTwoSets.cs" />
     <Compile Include="HackerRank\BiggerIsGreater.cs" />
     <Compile Include="HackerRank\BreakingTheRecords.cs" />
     <Compile Include="HackerRank\CompareTriplets.cs" />
