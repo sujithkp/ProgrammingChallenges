@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GeeksForGeeksProblems
 {
     public class FunnyString
     {
-
         public static string funnyString(string s)
         {
             char[] a1 = s.ToCharArray();

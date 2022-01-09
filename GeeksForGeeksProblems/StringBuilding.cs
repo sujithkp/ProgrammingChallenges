@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GeeksForGeeksProblems
 {
@@ -73,9 +69,7 @@ namespace GeeksForGeeksProblems
             }
 
             return totalCost;
-
         }
-
 
         public static void Run()
         {
@@ -84,7 +78,6 @@ namespace GeeksForGeeksProblems
         }
     }
 }
-
 
 
 /*

@@ -6,7 +6,7 @@ namespace GeeksForGeeksProblems
     {
         public static void Run()
         {
-            var arr = new int[] { 193,55,70,82,66,68,114,194,35,73,173,31,102,43,178,78,171,103,165,182,191,24,38,24,180,196,170,128,43,111,183,59,127,88,71,129,52,59,14,61,184,87,143,11,73,129,35,42,119,104,68 };
+            var arr = new int[] { 193, 55, 70, 82, 66, 68, 114, 194, 35, 73, 173, 31, 102, 43, 178, 78, 171, 103, 165, 182, 191, 24, 38, 24, 180, 196, 170, 128, 43, 111, 183, 59, 127, 88, 71, 129, 52, 59, 14, 61, 184, 87, 143, 11, 73, 129, 35, 42, 119, 104, 68 };
 
             int sumReq = 150;
 
@@ -34,7 +34,7 @@ namespace GeeksForGeeksProblems
                     Console.WriteLine($"revised sum : {sum}");
 
                     if (endindex < startIndex)
-                    {                        
+                    {
                         sum -= arr[startIndex];
                         Console.WriteLine($"new sum : {sum}");
                         endindex++;
