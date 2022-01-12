@@ -53,6 +53,7 @@
     <Compile Include="HackerRank\BillDivision.cs" />
     <Compile Include="HackerRank\BreakingTheRecords.cs" />
     <Compile Include="HackerRank\CompareTriplets.cs" />
+    <Compile Include="HackerRank\DesignerPDFViewer.cs" />
     <Compile Include="HackerRank\DivisibleSumPairs.cs" />
     <Compile Include="HackerRank\Encryption.cs" />
     <Compile Include="HackerRank\GradingStudent.cs" />
