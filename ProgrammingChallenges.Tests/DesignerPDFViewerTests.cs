@@ -13,5 +13,11 @@ namespace ProgrammingChallenges.Tests
             Assert.Equal(28, result);
         }
 
+        [Fact]
+        public void Test2()
+        {
+            var result = DesignerPDFViewer.dayOfProgrammer(1800);
+        }
+
     }
 }
