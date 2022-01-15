@@ -55,6 +55,7 @@
     <Compile Include="HackerRank\CompareTriplets.cs" />
     <Compile Include="HackerRank\DesignerPDFViewer.cs" />
     <Compile Include="HackerRank\DivisibleSumPairs.cs" />
+    <Compile Include="HackerRank\DrawingBook.cs" />
     <Compile Include="HackerRank\Encryption.cs" />
     <Compile Include="HackerRank\GradingStudent.cs" />
     <Compile Include="HackerRank\MigratoryBirds.cs" />
