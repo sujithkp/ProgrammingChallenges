@@ -62,6 +62,7 @@
     <Compile Include="HackerRank\MinMaxSUm.cs" />
     <Compile Include="HackerRank\NumberLineJumps.cs.cs" />
     <Compile Include="HackerRank\OccurenceOfLargestNumber.cs" />
+    <Compile Include="HackerRank\RepeatedString.cs" />
     <Compile Include="HackerRank\SubarrayDivision.cs" />
     <Compile Include="HackerRank\TheTimeinWords.cs" />
     <Compile Include="Program.cs" />
