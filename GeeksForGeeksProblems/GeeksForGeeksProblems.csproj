@@ -73,6 +73,7 @@
     <Compile Include="StringReducer.cs" />
     <Compile Include="SubArraySum.cs" />
     <Compile Include="HackerRank\TimeConversion.cs" />
+    <Compile Include="ZeroSumSubArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
