@@ -65,6 +65,7 @@
     <Compile Include="HackerRank\RepeatedString.cs" />
     <Compile Include="HackerRank\SubarrayDivision.cs" />
     <Compile Include="HackerRank\TheTimeinWords.cs" />
+    <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
