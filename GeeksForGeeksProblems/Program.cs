@@ -14,6 +14,19 @@ namespace GeeksForGeeksProblems
 
         static void Main(string[] args)
         {
+            MaxSubArray.MaxSubArraySum1(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 }, 8);
+            MaxSubArray.MaxSubArraySum(new int[] { -2, -3, 4, -1, -2, 1, 5, -3 }, 8);
+
+
+            MaxSubArray.MaxSubArraySum(new int[] { 1, 2, -2, 3, -4, 7, -15, 20 }, 8);
+            //MaxSubArray.MaxSubArraySum(new int[] { -12, -13, -4, -1, -2, -21, -15, -13 }, 8);
+
+
+            return;
+
+
+
+
             var list = new List<Chassis>();
 
             list.Add(new Chassis() { ChassisId = "1", SKU = "SKU1" });
