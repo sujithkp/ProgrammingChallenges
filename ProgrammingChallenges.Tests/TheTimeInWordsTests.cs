@@ -12,7 +12,7 @@ namespace ProgrammingChallenges.Tests
         [InlineData("5:57", "three minutes to six")]
         [InlineData("3:00", "three o' clock")]
         [InlineData("7:15", "quarter past seven")]
-        [InlineData("5:45", "quarter past seven")]
+        [InlineData("5:45", "quarter to six")]
         public void Test1(string time, string expected)
         {
             var result = TheTimeinWords.timeInWords(int.Parse(time.Split(":")[0]), int.Parse(time.Split(":")[1]));
