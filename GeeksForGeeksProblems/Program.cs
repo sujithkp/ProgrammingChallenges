@@ -14,20 +14,10 @@ namespace GeeksForGeeksProblems
 
         static void Main(string[] args)
         {
-
-            var stri = LongestCommonPrefix.longestCommonPrefix(
-                new string[] { "gee",
-                               "ogeeksforgeeks",
-                               "geeks",
-                               "ge",
-                               "geek",
-                               "geezer"
-                }, 5);
+            //var c = SubArrayCount.GetSubArrayCount(new int[] { 6, -1, -3, 4, -2, 2, 4, 6, -12, -7 });
+            SubArrayCount.GetSubArrayCount(new int[] {  0, 0, 5, 5, 0, 0 } );
 
             return;
-
-
-
 
             var list = new List<Chassis>();
 

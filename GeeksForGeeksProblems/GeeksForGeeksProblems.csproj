@@ -72,6 +72,7 @@
     <Compile Include="ReverseALinkedList.cs" />
     <Compile Include="StringBuilding.cs" />
     <Compile Include="StringReducer.cs" />
+    <Compile Include="SubArrayCount.cs" />
     <Compile Include="SubArraySum.cs" />
     <Compile Include="HackerRank\TimeConversion.cs" />
     <Compile Include="ZeroSumSubArray.cs" />
