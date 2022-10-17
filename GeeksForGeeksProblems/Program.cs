@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using GeeksForGeeksProblems.HackerRank;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace GeeksForGeeksProblems
@@ -14,6 +15,9 @@ namespace GeeksForGeeksProblems
 
         static void Main(string[] args)
         {
+            int count = SquareIntegers.squares(17, 24);
+
+
             //var c = SubArrayCount.GetSubArrayCount(new int[] { 6, -1, -3, 4, -2, 2, 4, 6, -12, -7 });
             SubArrayCount.GetSubArrayCount(new int[] {  0, 0, 5, 5, 0, 0 } );
 

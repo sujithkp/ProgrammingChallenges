@@ -63,6 +63,7 @@
     <Compile Include="HackerRank\NumberLineJumps.cs.cs" />
     <Compile Include="HackerRank\OccurenceOfLargestNumber.cs" />
     <Compile Include="HackerRank\RepeatedString.cs" />
+    <Compile Include="HackerRank\SquareIntegers.cs" />
     <Compile Include="HackerRank\SubarrayDivision.cs" />
     <Compile Include="HackerRank\TheTimeinWords.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
