@@ -67,6 +67,8 @@
     <Compile Include="HackerRank\SubarrayDivision.cs" />
     <Compile Include="HackerRank\TheTimeinWords.cs" />
     <Compile Include="LeetCode\LinkedlistPalindrome.cs" />
+    <Compile Include="LeetCode\RomanToInteger.cs" />
+    <Compile Include="LeetCode\TwoSum.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="Program.cs" />

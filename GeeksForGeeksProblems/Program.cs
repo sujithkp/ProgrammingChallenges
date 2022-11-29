@@ -1,4 +1,5 @@
 ﻿using GeeksForGeeksProblems.HackerRank;
+using GeeksForGeeksProblems.LeetCode;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -15,26 +16,10 @@ namespace GeeksForGeeksProblems
 
         static void Main(string[] args)
         {
-            int count = SquareIntegers.squares(17, 24);
+            //  new TwoSumSolution().TwoSum(new int[] { 2, 7, 11, 15 }, 9);
+            //  new TwoSumSolution().TwoSum(new int[] { 3, 2, 4 }, 6);
+           var result = new TwoSumSolution().TwoSum2(new int[] { 3,2, 3 }, 6);
 
-
-            //var c = SubArrayCount.GetSubArrayCount(new int[] { 6, -1, -3, 4, -2, 2, 4, 6, -12, -7 });
-            SubArrayCount.GetSubArrayCount(new int[] {  0, 0, 5, 5, 0, 0 } );
-
-            return;
-
-            var list = new List<Chassis>();
-
-            list.Add(new Chassis() { ChassisId = "1", SKU = "SKU1" });
-            list.Add(new Chassis() { ChassisId = "2", SKU = "SKU2" });
-            list.Add(new Chassis() { ChassisId = "1", SKU = "SKU3" });
-
-            var qry = from chassis in list
-                      where chassis.ChassisId == "1"
-                      group chassis by chassis.ChassisId into chassisGroup
-                      select chassisGroup;
-
-            StringBuilding.Run();
         }
     }
 }
