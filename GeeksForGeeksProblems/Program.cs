@@ -18,7 +18,7 @@ namespace GeeksForGeeksProblems
         {
             //  new TwoSumSolution().TwoSum(new int[] { 2, 7, 11, 15 }, 9);
             //  new TwoSumSolution().TwoSum(new int[] { 3, 2, 4 }, 6);
-           var result = new TwoSumSolution().TwoSum2(new int[] { 3,2, 3 }, 6);
+           var result = new TwoSumSolution().TwoSum3(new int[] { 3,2, 3 }, 6);
 
         }
     }
