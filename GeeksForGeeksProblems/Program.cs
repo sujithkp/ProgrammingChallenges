@@ -32,10 +32,10 @@ namespace GeeksForGeeksProblems
 
         static Task<int> SomeBulkyTaskAsyn(int a)
         {
-            return  Task.Factory.StartNew(() => SomeBulkyTask(a));
+            return Task.Factory.StartNew(() => SomeBulkyTask(a));
         }
 
-        static int SomeBulkyTask(int s )
+        static int SomeBulkyTask(int s)
         {
             Console.WriteLine("xxxxxx");
             Thread.Sleep(10000);
@@ -101,6 +101,23 @@ namespace GeeksForGeeksProblems
         }
     }
 
+
+    //asked during Wipro Interview
+    //static classes can have static constructors - I was right.
+    public static class StaticClass
+    {
+        static StaticClass()
+        {
+
+
+        }
+    }
+
+    public interface SomeInterface
+    {
+      //  public int SomeField; // not possible
+    }
+
     public class Ingredient
     {
         public string name { get; set; }
@@ -115,7 +132,8 @@ namespace GeeksForGeeksProblems
     {
         private readonly string name;
 
-        public Racer(string name)        {
+        public Racer(string name)
+        {
             this.name = name;
         }
 
