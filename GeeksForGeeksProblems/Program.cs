@@ -1,5 +1,4 @@
-﻿using GeeksForGeeksProblems.HackerRank;
-using GeeksForGeeksProblems.LeetCode;
+﻿using GeeksForGeeksProblems.LeetCode;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,14 +18,28 @@ namespace GeeksForGeeksProblems
 
         public static void Main(string[] args)
         {
-            BuySellStock.stockBuySell(new int[] { 822, 754, 1689, 305, 214, 782, 1463, 1432, 1382, 1734,
-    948, 231, 210, 1676, 877, 670, 1384, 725, 1370, 412, 724, 371, 928, 358, 533, 1031, 850,
-    1555, 1064, 845, 1692, 514, 630, 1333, 1640, 315, 1639, 1792, 1779, 1325, 1619, 1400,
-    378, 145, 913, 901, 1652, 530, 1259, 880, 303, 685, 1586 }, 53);
+            //BuySellStock.GetMaxProfit(new int[] { 100, 180, 260, 310, 40, 535, 695 });
 
-            BuySellStock.stockBuySell(new int[] { 4, 2, 2, 2, 4 }, 5);
+            //BuySellStock.GetMaxProfit(new int[] { 100, 30, 15, 10, 8, 25, 80 });
 
-            BuySellStock.stockBuySell(new int[] { 100, 180, 260, 310, 40, 535, 695 }, 7);
+            var result = BuySellStock.stockBuySell1(new int[] { 822, 754, 1689, 305, 214, 782, 1463, 1432, 1382, 1734,
+                    948, 231, 210, 1676, 877, 670, 1384, 725, 1370, 412, 724, 371, 928, 358, 533, 1031, 850,
+                    1555, 1064, 845, 1692, 514, 630, 1333, 1640, 315, 1639, 1792, 1779, 1325, 1619, 1400,
+                    378, 145, 913, 901, 1652, 530, 1259, 880, 303,685, 1586 }, 53);
+
+            var resultStr = String.Join("," , result.SelectMany(x => x));
+
+
+            var result2 = BuySellStock.GetProfits(new int[] { 822, 754, 1689, 305, 214, 782, 1463, 1432, 1382, 1734,
+                    948, 231, 210, 1676, 877, 670, 1384, 725, 1370, 412, 724, 371, 928, 358, 533, 1031, 850,
+                    1555, 1064, 845, 1692, 514, 630, 1333, 1640, 315, 1639, 1792, 1779, 1325, 1619, 1400,
+                    378, 145, 913, 901, 1652, 530, 1259, 880, 303,685, 1586 });
+
+            resultStr = String.Join(",", result2.SelectMany(x => x));
+
+            BuySellStock.MaxProfitFromstockBuySell(new int[] { 4, 2, 2, 2, 4 });
+
+            BuySellStock.MaxProfitFromstockBuySell(new int[] { 100, 180, 260, 310, 40, 535, 695 });
 
             SomeBulkyTask(5);
 
