@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GeeksForGeeksProblems.LeetCode
+namespace GeeksForGeeksProblems
 {
     public class BuySellStock
     {

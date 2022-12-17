@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeetCode\BuySellStock.cs" />
+    <Compile Include="BreakaNumber.cs" />
+    <Compile Include="BuySellStock.cs" />
     <Compile Include="CamelCase.cs" />
     <Compile Include="CSharp\EmployeesManagement.cs" />
     <Compile Include="CSharp\NotesStore.cs" />
